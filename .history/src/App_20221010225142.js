@@ -2,6 +2,8 @@ import React from "react";
 import {
   createBrowserRouter,
   RouterProvider,
+  Route,
+  BrowserRouter,
 } from "react-router-dom";
 import HeaderComponent from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
@@ -21,7 +23,7 @@ const router = createBrowserRouter([
   {
     path: "/blog/:id",
     element: <IBlogComponent />,
-  }
+  },
 ]);
 
 function App() {

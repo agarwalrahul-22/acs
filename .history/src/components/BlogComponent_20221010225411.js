@@ -3,7 +3,23 @@ import fullimage2 from "../images/full_image_2.jpg";
 import privacy from "../images/privacy_acs.jpg";
 import distributed from "../images/distributed_acs.jpg";
 import audit from "../images/audit_acs.jpg";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
 
+const router = createBrowserRouter([
+  {
+    path: "/blog",
+    element: <BlogListComponent />,
+  },
+  {
+    path: "/blog/:id",
+    element: <IBlogComponent />,
+  },
+]);
 function BlogComponent() {
   return (
     <div>

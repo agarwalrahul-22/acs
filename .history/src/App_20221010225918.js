@@ -7,7 +7,6 @@ import HeaderComponent from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
 import MainComponent from "./components/MainComponent";
 import BlogComponent from "./components/BlogComponent";
-import IBlogComponent from "./components/IBlogComponent";
 
 const router = createBrowserRouter([
   {
@@ -18,10 +17,6 @@ const router = createBrowserRouter([
     path: "/blog",
     element: <BlogComponent />,
   },
-  {
-    path: "/blog/:id",
-    element: <IBlogComponent />,
-  }
 ]);
 
 function App() {

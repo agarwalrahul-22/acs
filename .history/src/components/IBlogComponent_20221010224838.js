@@ -1,10 +1,6 @@
 import React from 'react'
 import fullimage2 from "../images/full_image_2.jpg";
-import privacy from "../images/privacy_acs.jpg";
-import distributed from "../images/distributed_acs.jpg";
-import audit from "../images/audit_acs.jpg";
-
-function BlogComponent() {
+function IBlogComponent() {
   return (
     <div>
       <section
@@ -88,5 +84,4 @@ function BlogComponent() {
     </div>
   );
 }
-
-export default BlogComponent;
+export default IBlogComponent;

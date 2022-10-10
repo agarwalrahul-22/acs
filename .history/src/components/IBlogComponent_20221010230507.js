@@ -3,8 +3,7 @@ import fullimage2 from "../images/full_image_2.jpg";
 import privacy from "../images/privacy_acs.jpg";
 import distributed from "../images/distributed_acs.jpg";
 import audit from "../images/audit_acs.jpg";
-
-function BlogComponent() {
+function IBlogComponent() {
   return (
     <div>
       <section
@@ -66,27 +65,10 @@ function BlogComponent() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 col-sm-6 col-xxs-12">
-              <a
-                href="/blog/3"
-                className="fh5co-project-item image-popup to-animate"
-              >
-                <img src={audit} alt="Image" className="img-responsive" />
-                <div className="fh5co-text">
-                  <h2>Auditability</h2>
-                  <span>
-                    Since Blockchain are accessible, the cryptographic proofs
-                    that we generate are everything need to provide or verify
-                    that event happened while maintaining absolute privacy.
-                  </span>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </section>
     </div>
   );
 }
-
-export default BlogComponent;
+export default IBlogComponent;
