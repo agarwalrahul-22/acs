@@ -25,7 +25,7 @@ export default function HeaderComponent() {
             <div id="navbar" className="navbar-collapse collapse">
               <ul className="nav navbar-nav navbar-right">
                 <li className="active">
-                  <a href="/" data-nav-section="home">
+                  <a href="/" data-nav-section="home">s
                   {/* <Link to="/" data-nav-section="home"> */}
                     <span>Home</span>
                   {/* </Link> */}
@@ -57,11 +57,11 @@ export default function HeaderComponent() {
                   </a>
                 </li>
                 <li>
-                  <a href="/blog" data-nav-section="contact">
+                  {/* <a href="/blog" data-nav-section="contact"> */}
                   {/* <Link to="/blog"> */}
                   <span>Blog</span>
                   {/* </Link> */}
-                  </a>
+                  {/* </a> */}
                 </li>
               </ul>
             </div>

@@ -31,7 +31,7 @@ function IBlogComponent() {
             }}
           >
             <div className="col-12">
-              <img src={privacy} alt="Image" className="img-responsive" />
+              <img src={privacy} alt="Image" className="img-responsive align-items-center" />
               <div className="fh5co-text">
                 <h2>Blog 1</h2>
                 <span>

@@ -57,11 +57,11 @@ export default function HeaderComponent() {
                   </a>
                 </li>
                 <li>
-                  <a href="/blog" data-nav-section="contact">
+                  {/* <a href="/blog" data-nav-section="contact"> */}
                   {/* <Link to="/blog"> */}
                   <span>Blog</span>
                   {/* </Link> */}
-                  </a>
+                  {/* </a> */}
                 </li>
               </ul>
             </div>

@@ -34,6 +34,7 @@ function BlogComponent() {
             }}
           >
             <div className="col-md-4 col-sm-6 col-xxs-12">
+              {/* <a href="1" className="fh5co-project-item image-popup to-animate"> */}
               <Link
                 to="/blog/1"
                 className="fh5co-project-item image-popup to-animate"
@@ -49,10 +50,11 @@ function BlogComponent() {
                   </span>
                 </div>
               </Link>
+              {/* </a> */}
             </div>
             <div className="col-md-4 col-sm-6 col-xxs-12">
-              <Link
-                to="/blog/2"
+              <a
+                href="/blog/2"
                 className="fh5co-project-item image-popup to-animate"
               >
                 <img src={distributed} alt="Image" className="img-responsive" />
@@ -64,11 +66,11 @@ function BlogComponent() {
                     zero duplication distributed across network of nodes.
                   </span>
                 </div>
-              </Link>
+              </a>
             </div>
             <div className="col-md-4 col-sm-6 col-xxs-12">
-              <Link
-                to="/blog/3"
+              <a
+                href="/blog/3"
                 className="fh5co-project-item image-popup to-animate"
               >
                 <img src={audit} alt="Image" className="img-responsive" />
@@ -80,7 +82,7 @@ function BlogComponent() {
                     that event happened while maintaining absolute privacy.
                   </span>
                 </div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

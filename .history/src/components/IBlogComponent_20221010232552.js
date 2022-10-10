@@ -28,6 +28,9 @@ function IBlogComponent() {
               backgroundColor: "white",
               padding: "30px",
               boxShadow: "5px 5px 20px 8px lightgrey",
+              width: '80%',
+              alignContent: 'center',
+              alignItems: 'center',
             }}
           >
             <div className="col-12">
