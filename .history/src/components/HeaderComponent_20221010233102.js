@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function HeaderComponent() {
   return (
@@ -8,7 +9,7 @@ export default function HeaderComponent() {
           <nav className="navbar navbar-default">
             <div className="navbar-header">
               <a
-                href="/"
+                href="#"
                 className="js-fh5co-nav-toggle fh5co-nav-toggle"
                 data-toggle="collapse"
                 data-target="#navbar"
@@ -29,27 +30,27 @@ export default function HeaderComponent() {
                   </a>
                 </li>
                 <li>
-                  <a href="/" data-nav-section="three">
+                  <a href="#" data-nav-section="three">
                     <span>Technology</span>
                   </a>
                 </li>
                 <li>
-                  <a href="/" data-nav-section="impact">
+                  <a href="#" data-nav-section="impact">
                     <span>Impact</span>
                   </a>
                 </li>
                 <li>
-                  <a href="/" data-nav-section="services">
+                  <a href="#" data-nav-section="services">
                     <span>Services</span>
                   </a>
                 </li>
                 <li>
-                  <a href="/" data-nav-section="cities">
+                  <a href="#" data-nav-section="cities">
                     <span>Cities</span>
                   </a>
                 </li>
                 <li>
-                  <a href="/" data-nav-section="contact">
+                  <a href="#" data-nav-section="contact">
                     <span>Contact</span>
                   </a>
                 </li>

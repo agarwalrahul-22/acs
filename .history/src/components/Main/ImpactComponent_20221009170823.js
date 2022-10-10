@@ -9,7 +9,8 @@ export default function ImpactComponent() {
 				<div className="col-md-12 section-heading text-center">
 					<img src="https://docucdn-a.akamaihd.net/olive/images/2.44.0/green-score/greenScoreLogo.svg" alt=""/>
 					<h2 className="to-animate">Enviromental Impact</h2>
-					<p><a rel="noopener" href="https://medium.com/@atithiapp/we-had-all-checked-into-the-hotel-and-presented-identity-documents-prior-to-our-stay-ee21f5ce35b0"><span style={{color: `#2980b9`}}><u>How do we calculate
+					<p><a rel="noopener" href="https://medium.com/@atithiapp/we-had-all-checked-into-the-hotel-and-presented-identity-documents-prior-to-our-stay-ee21f5ce35b0"
+							target="_blank"><span style={{color: `#2980b9`}}><u>How do we calculate
 									this estimate?</u></span></a></p>
 					<h3>Everyday millions of pages are consumed at hotels for guest documentation spread across
 						thousands

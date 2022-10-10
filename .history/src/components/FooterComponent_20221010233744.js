@@ -45,7 +45,7 @@ export default function FooterComponent() {
         </div>
       </section>
       <footer id="footer" role="contentinfo">
-        <a href="/" className="gotop js-gotop">
+        <a href="#" className="gotop js-gotop">
           <i className="icon-arrow-up2"></i>
         </a>
         <div className="container">

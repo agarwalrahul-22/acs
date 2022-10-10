@@ -28,7 +28,7 @@ export default function FooterComponent() {
                 <a
                   className="btn btn-primary btn-lg"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  // rel="noopener noreferrer"
                   href="https://docs.google.com/forms/d/e/1FAIpQLScY8eRM8vKYqxOk8EkxHlNGjagj-Hm-ePQu4LbVlgjD5vNo3w/viewform"
                 >
                   Contact Us
@@ -45,7 +45,7 @@ export default function FooterComponent() {
         </div>
       </section>
       <footer id="footer" role="contentinfo">
-        <a href="/" className="gotop js-gotop">
+        <a href="#" className="gotop js-gotop">
           <i className="icon-arrow-up2"></i>
         </a>
         <div className="container">
